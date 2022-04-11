@@ -5,6 +5,7 @@ dependencies:
   alan: 0.40.0+2
   convert: ^2.1.1
   pointycastle: ^1.0.2
+  quiver: ^2.1.5
   # typed_data: ^1.2.0
 
 dev_dependencies: 
