@@ -1,8 +1,8 @@
 name: cosmos_codec
-version: 0.0.1
+version: 0.0.2
 
 dependencies:
-  alan: 0.40.0+2
+  alan: ^0.40.2+1
   convert: ^2.1.1
   pointycastle: ^1.0.2
   quiver: ^2.1.5
