@@ -7,7 +7,7 @@ import 'package:alan/wallet/bech32_encoder.dart';
 import 'package:pointycastle/export.dart';
 
 Uint8List my_hexdecode(String hexStr) {
-  return hex.decode((hexStr.length.isOdd ? '0' : '') + hexStr);
+  return Uint8List.fromList(hex.decode((hexStr.length.isOdd ? '0' : '') + hexStr));
 }
 
 String publicKeyToAddress(String hexX, String hexY, [bech32Hrp = 'cosmos']) {
